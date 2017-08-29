@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "../server"
+  },
+  "sourceMap": false,
+  "strict": true   ,
+  "typeRoots": [
+    "../node_modules/@types"
+  ],
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ]
+}
